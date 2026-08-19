@@ -6,9 +6,9 @@ import streamlit as st # Importa a biblioteca 'streamlit' para criar interfaces 
 # Define o ID do agente com o qual queremos interagir. Este é um identificador único para o agente no servidor Agno.
 AGENT_ID = "agent_pdf"
 # Constrói a URL completa para o endpoint do agente.
-# 'http://localhost:7777' é o endereço do servidor onde o Agno (ou outro serviço) está rodando.
+# 'https://estudo-agno.onrender.com' é o endereço do servidor onde o Agno (ou outro serviço) está rodando.
 # '/agents/{AGENT_ID}/runs' é o caminho para enviar comandos/mensagens a um agente específico.
-ENDPOINT = f"http://https://estudo-agno.onrender.com/agents/{AGENT_ID}/runs"
+ENDPOINT = f"https://estudo-agno.onrender.com/agents/{AGENT_ID}/runs"
 
 # 2 - CONEXÃO COM O AGNO ===============================================================================
 
