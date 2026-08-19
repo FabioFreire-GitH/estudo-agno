@@ -9,3 +9,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# projeto pessoal
+src/agno/1_8_test_consultor_moub.py
+tmp/Chromadb_docs/
