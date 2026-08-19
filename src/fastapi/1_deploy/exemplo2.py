@@ -64,4 +64,4 @@ app = agent_os.get_app()
 # RUN ============================================================================== 
 
 if __name__ == "__main__":
-    agent_os.serve(app="exemplo2:app", reload=True)
+    agent_os.serve(app="exemplo2:app", host="0.0.0.0", port=10000, reload=True)
