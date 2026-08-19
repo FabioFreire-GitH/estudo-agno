@@ -8,7 +8,7 @@ AGENT_ID = "agent_pdf"
 # Constrói a URL completa para o endpoint do agente.
 # 'http://localhost:7777' é o endereço do servidor onde o Agno (ou outro serviço) está rodando.
 # '/agents/{AGENT_ID}/runs' é o caminho para enviar comandos/mensagens a um agente específico.
-ENDPOINT = f"http://localhost:7777/agents/{AGENT_ID}/runs"
+ENDPOINT = f"http://https://estudo-agno.onrender.com/agents/{AGENT_ID}/runs"
 
 # 2 - CONEXÃO COM O AGNO ===============================================================================
 
